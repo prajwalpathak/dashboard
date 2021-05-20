@@ -1,0 +1,11 @@
+.overview__card {
+  height: 118px;
+  background: #f9fafc;
+  border: 1px solid #ecf0f4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 5px 0;
+  margin-right: 10px;
+  flex: 1 0 42%; /* explanation below */
+  padding: 32px;
+}

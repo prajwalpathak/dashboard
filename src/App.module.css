@@ -1,0 +1,11 @@
+.dashboard {
+  display: flex;
+}
+.overview {
+  flex-grow: 3;
+}
+
+.important {
+  background: linear-gradient(180deg, #f9fafc 15.84%, #ffffff 68.86%);
+  padding: 48px 40px;
+}

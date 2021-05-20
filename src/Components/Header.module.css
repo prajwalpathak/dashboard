@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  min-height: 2rem;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ecf0f4;
+}
+.header__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.header__tabs {
+  display: flex;
+}
+.header__tab {
+  margin: 0 1.5rem;
+}
