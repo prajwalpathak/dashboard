@@ -1,0 +1,35 @@
+.overview__card__2 {
+  height: 118px;
+  background: #f9fafc;
+  border: 1px solid #ecf0f4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 5px 0;
+  margin-right: 10px;
+  flex: 1 0 42%;
+  padding: 32px;
+}
+
+.overview__card__3 {
+  height: 118px;
+  background: #f9fafc;
+  border: 1px solid #ecf0f4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 5px 0;
+  margin-right: 10px;
+  flex: 1 0 30%;
+  padding: 32px;
+}
+
+.overview__card__4 {
+  height: 118px;
+  background: #f9fafc;
+  border: 1px solid #ecf0f4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 5px 0;
+  margin-right: 10px;
+  flex: 1 0 22%;
+  padding: 32px;
+}

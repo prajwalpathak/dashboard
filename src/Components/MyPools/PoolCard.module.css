@@ -1,0 +1,48 @@
+.pool__image {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #dde0e6;
+}
+.pool__card {
+  height: 430px;
+  background: #ffffff;
+  box-shadow: 0px 5px 14px rgba(132, 132, 132, 0.1);
+  border-radius: 6px;
+  flex: 1 0 41%;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding: 38px 24px 24px 24px;
+}
+.pool__overview {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f6f6f6;
+}
+.pool__overview__details {
+  padding: 0 16px;
+}
+.pool__overview__name {
+  font-weight: 600;
+  font-size: 17px;
+  color: #131e40;
+}
+.pool__overview__handle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #a5adc6;
+  padding-bottom: 16px;
+}
+.btn__flex {
+  display: flex;
+}
+.pool__overview__data {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.data__flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 24px;
+}

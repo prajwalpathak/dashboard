@@ -1,0 +1,14 @@
+.tag__default {
+  width: fit-content;
+  height: 22px;
+  padding: 5px 12px;
+  margin-right: 8px;
+  background: #efefef;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #212b4c;
+}

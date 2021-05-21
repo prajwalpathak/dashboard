@@ -1,0 +1,72 @@
+[
+  {
+    "image": "",
+    "name": "Vote for extension",
+    "handle": "@Lorem_ipsum",
+    "poolStatus": "Open Pool",
+    "poolPeriod": "Grace Period",
+    "paymentStatus": {
+      "borrowRate": "11%",
+      "borrowedAmount": "1,000 DOT",
+      "nextPayment": "200 DOT",
+      "repaymentProgress": "45%"
+    },
+    "button": "Repay"
+  },
+  {
+    "image": "",
+    "name": "Vote for extension",
+    "handle": "@Lorem_ipsum",
+    "poolStatus": "Open Borrow",
+    "poolPeriod": "Collecting",
+    "paymentStatus": {
+      "borrowRate": "11%",
+      "borrowedAmount": "1,000 DOT",
+      "nextPayment": "200 DOT",
+      "repaymentProgress": "45%"
+    },
+    "button": "Add collateral"
+  },
+  {
+    "image": "",
+    "name": "Vote for extension",
+    "handle": "@Lorem_ipsum",
+    "poolStatus": "Open Borrow",
+    "poolPeriod": "Closed",
+    "paymentStatus": {
+      "borrowRate": "11%",
+      "borrowedAmount": "1,000 DOT",
+      "nextPayment": "200 DOT",
+      "repaymentProgress": "45%"
+    },
+    "button": "Add collateral"
+  },
+  {
+    "image": "",
+    "name": "Vote for extension",
+    "handle": "@Lorem_ipsum",
+    "poolStatus": "Open Borrow",
+    "poolPeriod": "Closed",
+    "paymentStatus": {
+      "borrowRate": "11%",
+      "borrowedAmount": "1,000 DOT",
+      "nextPayment": "200 DOT",
+      "repaymentProgress": "45%"
+    },
+    "button": "View more"
+  },
+  {
+    "image": "",
+    "name": "Vote for extension",
+    "handle": "@Lorem_ipsum",
+    "poolStatus": "Open Pool",
+    "poolPeriod": "Grace Period",
+    "paymentStatus": {
+      "borrowRate": "11%",
+      "borrowedAmount": "1,000 DOT",
+      "nextPayment": "200 DOT",
+      "repaymentProgress": "45%"
+    },
+    "button": "View more"
+  }
+]

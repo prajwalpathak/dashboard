@@ -1,4 +1,4 @@
-.important-section__card {
+.important__card {
   width: 407px;
   height: 176px;
   left: 993px;
@@ -14,13 +14,35 @@
   margin: 16px 0;
 }
 
-.profile-image {
+.important__image {
   width: 56px;
   height: 56px;
   border-radius: 50%;
   background-color: #dde0e6;
 }
 
-.important-section__profile {
+.important__profile {
   display: flex;
+}
+
+.important__details {
+  padding: 0 16px 16px 16px;
+}
+
+.important__name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.important__handle {
+  font-weight: 500;
+  font-size: 16px;
+  color: #a5adc6;
+  padding-bottom: 10px;
+}
+
+.important__days {
+  font-weight: 500;
+  font-size: 13px;
+  color: #a5adc6;
 }

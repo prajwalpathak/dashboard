@@ -1,4 +1,3 @@
-import Card from "../UI/Card";
 import ImportantCard from "./ImportantCard";
 
 const ImportantSection = ({ data }) => {
@@ -10,6 +9,6 @@ const ImportantSection = ({ data }) => {
     />
   ));
 
-  return <div>{importantList}</div>;
+  return <article>{importantList}</article>;
 };
 export default ImportantSection;

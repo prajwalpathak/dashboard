@@ -9,3 +9,9 @@
   background: linear-gradient(180deg, #f9fafc 15.84%, #ffffff 68.86%);
   padding: 48px 40px;
 }
+
+.section__title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #131e40;
+}

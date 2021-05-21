@@ -8,7 +8,7 @@ const Header = ({ title, tabs }) => {
   return (
     <header className={styles.header}>
       <div className={styles["header__title"]}>{title}</div>
-      <div className={styles["header__tabs"]}>{navButtons}</div>
+      <nav className={styles["header__tabs"]}>{navButtons}</nav>
     </header>
   );
 };

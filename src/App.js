@@ -1,104 +1,13 @@
-import Header from "./Components/Header";
-import ImportantSection from "./Components/ImportantSection";
-import Overview from "./Components/Overview";
+import Header from "./Components/Header/Header";
+import ImportantSection from "./Components/Important/ImportantSection";
+import Overview from "./Components/Overview/Overview";
+import MyPools from "./Components/MyPools/MyPools";
+import overviewData from "../src/overview.json";
+import depositData from "../src/deposit-overview.json";
+import creditData from "../src/credit-overview.json";
+import importantData from "../src/important.json";
+import poolData from "../src/pool.json";
 import styles from "./App.module.css";
-import MyPools from "./Components/MyPools";
-
-const overviewData = [
-  { title: "Total borrowed amount", value: "$16,034" },
-  { title: "Total supplied amount", value: "$160,032" },
-  { title: "Total borrow rate", value: "32%" },
-  { title: "Total lending rate", value: "15%" },
-];
-
-const importantData = [
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    daysLeft: 2,
-  },
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    daysLeft: 2,
-  },
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    daysLeft: 2,
-  },
-];
-
-const poolData = [
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    poolStatus: "Open Pool",
-    poolPeriod: "Grace Period",
-    paymentStatus: {
-      borrowRate: "11%",
-      borrowedAmount: "1,000 DOT",
-      nextPayment: "200 DOT",
-      repaymentProgress: "45%",
-    },
-  },
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    poolStatus: "Open Pool",
-    poolPeriod: "Grace Period",
-    paymentStatus: {
-      borrowRate: "11%",
-      borrowedAmount: "1,000 DOT",
-      nextPayment: "200 DOT",
-      repaymentProgress: "45%",
-    },
-  },
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    poolStatus: "Open Pool",
-    poolPeriod: "Grace Period",
-    paymentStatus: {
-      borrowRate: "11%",
-      borrowedAmount: "1,000 DOT",
-      nextPayment: "200 DOT",
-      repaymentProgress: "45%",
-    },
-  },
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    poolStatus: "Open Pool",
-    poolPeriod: "Grace Period",
-    paymentStatus: {
-      borrowRate: "11%",
-      borrowedAmount: "1,000 DOT",
-      nextPayment: "200 DOT",
-      repaymentProgress: "45%",
-    },
-  },
-  {
-    image: "",
-    name: "Vote for extension",
-    handle: "@Lorem_ipsum",
-    poolStatus: "Open Pool",
-    poolPeriod: "Grace Period",
-    paymentStatus: {
-      borrowRate: "11%",
-      borrowedAmount: "1,000 DOT",
-      nextPayment: "200 DOT",
-      repaymentProgress: "45%",
-    },
-  },
-];
 
 function App() {
   return (
@@ -107,23 +16,33 @@ function App() {
         title="Sublime"
         tabs={["Dashboard", "Borrow", "Lend", "Profile"]}
       />
-      <div className={styles.dashboard}>
-        <div className={styles.overview}>
-          <Overview data={overviewData} title="Overview" />
+      <main className={styles.dashboard}>
+        <section className={styles.overview}>
+          <Overview data={overviewData} title="Overview" size={2} />
           <Overview
-            data={overviewData}
+            data={depositData}
             title="Deposit and Save Overview"
+            btnClass="overview__btn"
             hasButton
+            size={3}
           />
-          <Overview data={overviewData} title="Credit Lines" hasButton />
+          <Overview
+            data={creditData}
+            title="Credit Lines"
+            hasButton
+            btnClass="overview__btn"
+            size={4}
+          />
           <MyPools data={poolData} />
-        </div>
+        </section>
 
-        <div className={styles.important}>
-          <div>{`Important (${importantData.length})`}</div>
+        <section className={styles.important}>
+          <div
+            className={styles.section__title}
+          >{`Important (${importantData.length})`}</div>
           <ImportantSection data={importantData} />
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   );
 }
